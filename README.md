@@ -17,7 +17,7 @@ On https://git.generalassemb.ly/ga-wdi-exercises/haiku:
 2. Copy the "SSH clone URL" for your fork of this repo.
 * **This is where the SSH or HTTPS links come into play**
 
-Starting in ~/wdi/exercises:
+Starting in ~/wdi/homework:
 
 1. Clone the repository to your computer (make sure to use the url for your fork, and *not* this original repo), e.g. `git clone git@github.com:adambray/haiku.git`.  Note: The `git clone` command will create a new "haiku" dir and copy the repo into it.
 2. Change to the newly created "haiku" dir (`cd haiku`).
