@@ -28,7 +28,7 @@ Starting in your directory `~/wdi/homework`:
 1. Open the current directory in your text editor (`code .` or `atom .`).
 2. Create a text file named `your_gh_username.txt`, e.g. `nickolds.txt`.
 3. Write a haiku on a topic of your choice, commit your changes, and push those changes with `git push`.
-4. Make one more commit that removes the ***content*** of your `.txt` file (**do not delete the file**). 
+4. Make one more commit ***that removes only the content of*** your `.txt` file (**do not delete the file**). 
 5. Undo the commit you just made. Thing to Google is "undo last commit". (Hint: look for `git revert`)
 6. Push the changes again to your remote.
   > Your `remote`, named `origin` by default, should point to your fork of this repository.
@@ -60,4 +60,4 @@ No problem! This a chance to learn another useful `git` command!
   > `git remote set-url origin <paste clone URL here>`
   > Note: Make sure to replace `<paste clone URL here>` with the clone URL on your clipboard. 
   > This will set the `remote` named `origin` to point to your forked repository, and not the original.
-4. Now when you run `git push origin master`, it will push the changes to your forked repository, and not the original
+4. Now when you run `git push origin master`, it will push the changes to your forked repository, and not the original (this repo).
