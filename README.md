@@ -47,7 +47,7 @@ Additional changes (commits) are added to the Pull Request, after being pushed:
 
 ## Troubleshooting
 
-## Oh No I forked the Original!
+## Oh No I cloned down the original repository!
 
 > Error: Your changes were rejected because you don't have push access.
 
