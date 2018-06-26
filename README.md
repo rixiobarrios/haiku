@@ -2,7 +2,7 @@
 > An exercise in forking and creating a pull requests.
 
 ## First, run through the below exercise to add your SSH key
-- https://git.generalassemb.ly/ga-wdi-lessons/git-ssh
+- https://git.generalassemb.ly/dc-wdi-fundamentals/git-ssh
 **If you cannot get it to work, then use HTTPS for the below instructions (#2)**
 
 ## Learning Objectives
@@ -12,7 +12,7 @@
 You do not have the necessary rights to update this repository.  Therefore, you must fork it, make changes to your fork, and then send a pull request to the owners of this repository.
 
 ### Set Up Instructions
-On https://git.generalassemb.ly/ga-wdi-exercises/haiku:
+On https://git.generalassemb.ly/dc-wdi-fundamentals/haiku:
 
 1. Fork this repo to your personal account.
 2. Copy the "SSH clone URL" for your fork of this repo.
@@ -28,7 +28,7 @@ Starting in your directory `~/wdi/homework`:
 1. Open the current directory in your text editor (`code .` or `atom .`).
 2. Create a text file named `your_gh_username.txt`, e.g. `nickolds.txt`.
 3. Write a haiku on a topic of your choice, commit your changes, and push those changes with `git push`.
-4. Make one more commit ***that removes only the content of*** your `.txt` file (**do not delete the file**). 
+4. Make one more commit ***that removes only the content of*** your `.txt` file (**do not delete the file**).
 5. Undo the commit you just made. Thing to Google is "undo last commit". (Hint: look for `git revert`)
 6. Push the changes again to your remote.
   > Your `remote`, named `origin` by default, should point to your fork of this repository.
@@ -58,6 +58,6 @@ No problem! This a chance to learn another useful `git` command!
 2. Copy the clone URL to your clipboard.
 3. After you've done that, run the following command inside your `haiku` directory. Make sure to replace
   > `git remote set-url origin <paste clone URL here>`
-  > Note: Make sure to replace `<paste clone URL here>` with the clone URL on your clipboard. 
+  > Note: Make sure to replace `<paste clone URL here>` with the clone URL on your clipboard.
   > This will set the `remote` named `origin` to point to your forked repository, and not the original.
 4. Now when you run `git push origin master`, it will push the changes to your forked repository, and not the original (this repo).
