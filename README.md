@@ -1,10 +1,6 @@
 # haiku
 > An exercise in forking and creating a pull requests.
 
-## First, run through the below exercise to add your SSH key
-- https://git.generalassemb.ly/dc-wdi-fundamentals/git-ssh
-**If you cannot get it to work, then use HTTPS for the below instructions (#2)**
-
 ## Learning Objectives
 - Practice using the 'fork, clone, and pull request' model to submit assignments
 
