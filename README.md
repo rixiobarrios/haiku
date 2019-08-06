@@ -6,7 +6,7 @@ Practice working with git!
 
 ## Prerequisites
 
-* Familiarity with git
+- Familiarity with git
 
 ## Instructions
 
@@ -30,10 +30,14 @@ Work through the following instructions:
 
 1. Open the current directory in your text editor (`code .` or `atom .`).
 1. Create a text file named `your_gh_username.txt`, e.g. `nickolds.txt`.
-1. Write a haiku on a topic of your choice, commit your changes, and push those changes with `git push`.
-1. Make one more commit ***that removes only the content of*** your `.txt` file (**do not delete the file**).
-1. Undo the commit you just made. The thing to Google is "undo last commit". (Hint: look for `git revert`)
-1. Push the changes again to your remote. (Your `remote`, named `origin` by default, should point to your fork of this repository.)
+1. Write a haiku on a topic of your choice, commit your changes, and push those
+   changes with `git push`.
+1. Make one more commit **_that removes only the content of_** your `.txt` file
+   (**do not delete the file**).
+1. Undo the commit you just made. The thing to Google is "undo last commit".
+   (Hint: look for `git revert`)
+1. Push the changes again to your remote. (Your `remote`, named `origin` by
+   default, should point to your fork of this repository.)
 1. You should still see your original haiku on GitHub after pushing.
 
 ### Troubleshooting
@@ -45,17 +49,23 @@ Work through the following instructions:
 No problem! This a chance to learn another useful `git` command!
 
 1. Make sure you fork this repository to your GitHub Enterprise account.
-  > Recall that forking creates a copy of a repository that belongs to another user to your own account
+   > Recall that forking creates a copy of a repository that belongs to another
+   > user to your own account
 2. Copy the clone URL to your clipboard.
-3. After you've done that, run the following command inside your `haiku` directory. Make sure to replace
-  > `git remote set-url origin <paste clone URL here>`
-  > Note: Make sure to replace `<paste clone URL here>` with the clone URL on your clipboard.
-  > This will set the `remote` named `origin` to point to your forked repository, and not the original.
-4. Now when you run `git push origin master`, it will push the changes to your forked repository, and not the original (this repo).
+3. After you've done that, run the following command inside your `haiku`
+   directory. Make sure to replace
+   > `git remote set-url origin <paste clone URL here>` Note: Make sure to
+   > replace `<paste clone URL here>` with the clone URL on your clipboard. This
+   > will set the `remote` named `origin` to point to your forked repository,
+   > and not the original.
+4. Now when you run `git push origin master`, it will push the changes to your
+   forked repository, and not the original (this repo).
 
 ## Plagiarism
 
-Take a moment to refamiliarize yourself with the [Plagiarism policy](https://git.generalassemb.ly/DC-WDI/Administrative/blob/master/plagiarism.md). Plagiarized work will not be accepted.
+Take a moment to refamiliarize yourself with the
+[Plagiarism policy](https://git.generalassemb.ly/DC-WDI/Administrative/blob/master/plagiarism.md).
+Plagiarized work will not be accepted.
 
 ## [License](LICENSE)
 
